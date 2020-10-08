@@ -16,9 +16,9 @@
 		72CE0AFA1D320956001880CB /* mbp-un_square.icns in Resources */ = {isa = PBXBuildFile; fileRef = 72CE0AF91D320956001880CB /* mbp-un_square.icns */; };
 		72E38A231D30F5390013CB93 /* mbp-un-ic.png in Resources */ = {isa = PBXBuildFile; fileRef = 72E38A221D30F5390013CB93 /* mbp-un-ic.png */; };
 		72E38A251D3133A30013CB93 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72E38A241D3133A30013CB93 /* IOKit.framework */; };
+		CB241DE3252F72CE00CB2C4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB241DE2252F72CE00CB2C4D /* AppDelegate.swift */; };
 		DD4F7C0913C30F9F00825C6E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4F7C0813C30F9F00825C6E /* Cocoa.framework */; };
 		DD4F7C1513C30F9F00825C6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F7C1413C30F9F00825C6E /* main.m */; };
-		DD4F7C1C13C30F9F00825C6E /* ApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F7C1B13C30F9F00825C6E /* ApplicationDelegate.m */; };
 		DD4F7C1F13C30F9F00825C6E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD4F7C1D13C30F9F00825C6E /* MainMenu.xib */; };
 		DD4F7C3813C317A500825C6E /* MenubarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F7C3713C317A500825C6E /* MenubarController.m */; };
 		DD4F7C3C13C3180800825C6E /* StatusItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F7C3B13C3180800825C6E /* StatusItemView.m */; };
@@ -45,6 +45,8 @@
 		72E38A241D3133A30013CB93 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		7B30000A446BDBDE58E1D59C /* libPods-AirUnlock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AirUnlock.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB241DC4252F713A00CB2C4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CB241DE1252F72CD00CB2C4D /* AirUnlock-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AirUnlock-Bridging-Header.h"; sourceTree = "<group>"; };
+		CB241DE2252F72CE00CB2C4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D510C5F7E6348C9C93BD8B53 /* Pods-AirUnlock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirUnlock.release.xcconfig"; path = "Target Support Files/Pods-AirUnlock/Pods-AirUnlock.release.xcconfig"; sourceTree = "<group>"; };
 		DD4F7C0413C30F9F00825C6E /* AirUnlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirUnlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4F7C0813C30F9F00825C6E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -54,8 +56,6 @@
 		DD4F7C1013C30F9F00825C6E /* AirUnlock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "AirUnlock-Info.plist"; path = "AirUnlock/AirUnlock-Info.plist"; sourceTree = "<group>"; };
 		DD4F7C1413C30F9F00825C6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DD4F7C1613C30F9F00825C6E /* AirUnlock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AirUnlock-Prefix.pch"; sourceTree = "<group>"; };
-		DD4F7C1A13C30F9F00825C6E /* ApplicationDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplicationDelegate.h; sourceTree = "<group>"; };
-		DD4F7C1B13C30F9F00825C6E /* ApplicationDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplicationDelegate.m; sourceTree = "<group>"; };
 		DD4F7C3613C317A500825C6E /* MenubarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenubarController.h; sourceTree = "<group>"; };
 		DD4F7C3713C317A500825C6E /* MenubarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenubarController.m; sourceTree = "<group>"; };
 		DD4F7C3A13C3180800825C6E /* StatusItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusItemView.h; sourceTree = "<group>"; };
@@ -161,12 +161,12 @@
 		DD4F7C2613C311DF00825C6E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				DD4F7C1A13C30F9F00825C6E /* ApplicationDelegate.h */,
-				DD4F7C1B13C30F9F00825C6E /* ApplicationDelegate.m */,
+				CB241DE2252F72CE00CB2C4D /* AppDelegate.swift */,
 				DD4F7C3613C317A500825C6E /* MenubarController.h */,
 				DD4F7C3713C317A500825C6E /* MenubarController.m */,
 				DD4F7C3D13C318D600825C6E /* PanelController.h */,
 				DD4F7C3E13C318D600825C6E /* PanelController.m */,
+				CB241DE1252F72CD00CB2C4D /* AirUnlock-Bridging-Header.h */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -247,6 +247,7 @@
 				TargetAttributes = {
 					DD4F7C0313C30F9F00825C6E = {
 						DevelopmentTeam = A4LX8M7SYF;
+						LastSwiftMigration = 1170;
 					};
 				};
 			};
@@ -317,8 +318,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB241DE3252F72CE00CB2C4D /* AppDelegate.swift in Sources */,
 				DD4F7C1513C30F9F00825C6E /* main.m in Sources */,
-				DD4F7C1C13C30F9F00825C6E /* ApplicationDelegate.m in Sources */,
 				DD4F7C3813C317A500825C6E /* MenubarController.m in Sources */,
 				DD4F7C3C13C3180800825C6E /* StatusItemView.m in Sources */,
 				DD4F7C3F13C318D600825C6E /* PanelController.m in Sources */,
@@ -436,6 +437,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 72BE2EC0BC0BBD36F198BA24 /* Pods-AirUnlock.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -446,10 +448,14 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AirUnlock/AirUnlock-Prefix.pch";
 				INFOPLIST_FILE = "AirUnlock/AirUnlock-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = tw.qtlin.airunlock;
 				PRODUCT_NAME = AirUnlock;
+				SWIFT_OBJC_BRIDGING_HEADER = "AirUnlock/AirUnlock-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -458,6 +464,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D510C5F7E6348C9C93BD8B53 /* Pods-AirUnlock.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -468,10 +475,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AirUnlock/AirUnlock-Prefix.pch";
 				INFOPLIST_FILE = "AirUnlock/AirUnlock-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = tw.qtlin.airunlock;
 				PRODUCT_NAME = AirUnlock;
+				SWIFT_OBJC_BRIDGING_HEADER = "AirUnlock/AirUnlock-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
