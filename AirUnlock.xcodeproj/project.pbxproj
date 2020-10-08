@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		728D7D051D30DED500A88EAB /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 728D7D031D30D47E00A88EAB /* IOBluetooth.framework */; };
+		316AED86381D06666282250D /* libPods-AirUnlock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B30000A446BDBDE58E1D59C /* libPods-AirUnlock.a */; };
 		49A58E1B1FE744E400DD5980 /* login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A58E1A1FE744E400DD5980 /* login.framework */; };
+		728D7D051D30DED500A88EAB /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 728D7D031D30D47E00A88EAB /* IOBluetooth.framework */; };
 		728D85201D30A56900C8675E /* mbp-un.png in Resources */ = {isa = PBXBuildFile; fileRef = 728D851F1D30A56900C8675E /* mbp-un.png */; };
 		728D85241D30BF9500C8675E /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 728D85231D30BF9500C8675E /* CoreBluetooth.framework */; };
 		729CBE1E1D31F48F00EAB98E /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729CBE181D31E37700EAB98E /* ServiceManagement.framework */; };
 		72CE0AFA1D320956001880CB /* mbp-un_square.icns in Resources */ = {isa = PBXBuildFile; fileRef = 72CE0AF91D320956001880CB /* mbp-un_square.icns */; };
 		72E38A231D30F5390013CB93 /* mbp-un-ic.png in Resources */ = {isa = PBXBuildFile; fileRef = 72E38A221D30F5390013CB93 /* mbp-un-ic.png */; };
 		72E38A251D3133A30013CB93 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72E38A241D3133A30013CB93 /* IOKit.framework */; };
-		84FE1166B81D35505F1BFC1C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF28F97FEF51B2F4FC2B4B8D /* libPods.a */; };
 		DD4F7C0913C30F9F00825C6E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4F7C0813C30F9F00825C6E /* Cocoa.framework */; };
 		DD4F7C1513C30F9F00825C6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F7C1413C30F9F00825C6E /* main.m */; };
 		DD4F7C1C13C30F9F00825C6E /* ApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F7C1B13C30F9F00825C6E /* ApplicationDelegate.m */; };
@@ -33,18 +33,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		145A28ADA70E3B041FBCBDFC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		2B0FD4C51538A64F84C7D2AC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		728D7D031D30D47E00A88EAB /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
 		49A58E1A1FE744E400DD5980 /* login.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = login.framework; path = ../../../../System/Library/PrivateFrameworks/login.framework; sourceTree = "<group>"; };
+		728D7D031D30D47E00A88EAB /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
 		728D851F1D30A56900C8675E /* mbp-un.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mbp-un.png"; path = "AirUnlock/mbp-un.png"; sourceTree = "<group>"; };
 		728D85211D30AED300C8675E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		728D85231D30BF9500C8675E /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		729CBE181D31E37700EAB98E /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		72BE2EC0BC0BBD36F198BA24 /* Pods-AirUnlock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirUnlock.debug.xcconfig"; path = "Target Support Files/Pods-AirUnlock/Pods-AirUnlock.debug.xcconfig"; sourceTree = "<group>"; };
 		72CE0AF91D320956001880CB /* mbp-un_square.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = "mbp-un_square.icns"; path = "AirUnlock/mbp-un_square.icns"; sourceTree = "<group>"; };
 		72E38A221D30F5390013CB93 /* mbp-un-ic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mbp-un-ic.png"; path = "AirUnlock/mbp-un-ic.png"; sourceTree = "<group>"; };
 		72E38A241D3133A30013CB93 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
-		AF28F97FEF51B2F4FC2B4B8D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B30000A446BDBDE58E1D59C /* libPods-AirUnlock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AirUnlock.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D510C5F7E6348C9C93BD8B53 /* Pods-AirUnlock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirUnlock.release.xcconfig"; path = "Target Support Files/Pods-AirUnlock/Pods-AirUnlock.release.xcconfig"; sourceTree = "<group>"; };
 		DD4F7C0413C30F9F00825C6E /* AirUnlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirUnlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4F7C0813C30F9F00825C6E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		DD4F7C0B13C30F9F00825C6E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -84,20 +84,21 @@
 				728D7D051D30DED500A88EAB /* IOBluetooth.framework in Frameworks */,
 				728D85241D30BF9500C8675E /* CoreBluetooth.framework in Frameworks */,
 				DD4F7C0913C30F9F00825C6E /* Cocoa.framework in Frameworks */,
-				84FE1166B81D35505F1BFC1C /* libPods.a in Frameworks */,
+				316AED86381D06666282250D /* libPods-AirUnlock.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DC39A89A4A10CC5E48B75AF9 /* Pods */ = {
+		5E3EB01BDC2CC39F0B56594E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				145A28ADA70E3B041FBCBDFC /* Pods.debug.xcconfig */,
-				2B0FD4C51538A64F84C7D2AC /* Pods.release.xcconfig */,
+				72BE2EC0BC0BBD36F198BA24 /* Pods-AirUnlock.debug.xcconfig */,
+				D510C5F7E6348C9C93BD8B53 /* Pods-AirUnlock.release.xcconfig */,
 			);
 			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		DD4F7BF913C30F9F00825C6E = {
@@ -108,7 +109,7 @@
 				DD4F7C0713C30F9F00825C6E /* Frameworks */,
 				DD4F7C0513C30F9F00825C6E /* Products */,
 				DD4F7C1013C30F9F00825C6E /* AirUnlock-Info.plist */,
-				DC39A89A4A10CC5E48B75AF9 /* Pods */,
+				5E3EB01BDC2CC39F0B56594E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,7 +134,7 @@
 				DD4F7C0C13C30F9F00825C6E /* CoreData.framework */,
 				DD4F7C0D13C30F9F00825C6E /* Foundation.framework */,
 				DD4F7C0813C30F9F00825C6E /* Cocoa.framework */,
-				AF28F97FEF51B2F4FC2B4B8D /* libPods.a */,
+				7B30000A446BDBDE58E1D59C /* libPods-AirUnlock.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -223,12 +224,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD4F7C2213C30F9F00825C6E /* Build configuration list for PBXNativeTarget "AirUnlock" */;
 			buildPhases = (
-				FFACF72E67831B8E860F0782 /* Check Pods Manifest.lock */,
+				F8E91C76F2DB7F64D320EECF /* [CP] Check Pods Manifest.lock */,
 				DD4F7C0013C30F9F00825C6E /* Sources */,
 				DD4F7C0113C30F9F00825C6E /* Frameworks */,
 				DD4F7C0213C30F9F00825C6E /* Resources */,
-				9D89F8D47BB4A403896A4D5B /* Embed Pods Frameworks */,
-				6A2252A34A42298D0D602992 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -289,49 +288,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6A2252A34A42298D0D602992 /* Copy Pods Resources */ = {
+		F8E91C76F2DB7F64D320EECF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AirUnlock-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9D89F8D47BB4A403896A4D5B /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FFACF72E67831B8E860F0782 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -436,7 +412,7 @@
 		};
 		DD4F7C2313C30F9F00825C6E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 145A28ADA70E3B041FBCBDFC /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 72BE2EC0BC0BBD36F198BA24 /* Pods-AirUnlock.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -457,7 +433,7 @@
 		};
 		DD4F7C2413C30F9F00825C6E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B0FD4C51538A64F84C7D2AC /* Pods.release.xcconfig */;
+			baseConfigurationReference = D510C5F7E6348C9C93BD8B53 /* Pods-AirUnlock.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
